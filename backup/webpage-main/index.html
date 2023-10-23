@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="animation_button.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(255, 255, 255);"  id="background">
+    <div class="background">
+
+        <!-- menu bar -->
+        <div class="menu-bar">
+            <h3>ZSON.</h3>  
+
+            <div style="display: flex;">
+                <div style="display: flex; align-items: center">
+                    <ul class="menu-bar-accessory">
+                        <li><a href="">Home</a></li>
+                        <li class="menu-bar-accessory"><a href="">Download</a></li>
+                        <li class="menu-bar-accessory"><a href="">Learn more</a></li>
+                        <li class="menu-bar-accessory"><a href="https://adisornsriphongthong.github.io/WP-Landing-Page-About-me/">About me</a></li>
+                        <li style="color: transparent;">
+                            11111
+                        </li>
+                    </ul>
+
+                    <div class="burger">
+
+                        <button id="button-burger-mobile">
+                            <img id="Image-x" style="width: 35px; height: 35px; position: absolute; margin-left: -32px; margin-top: -22px;" src="https://cdn-icons-png.flaticon.com/128/9663/9663120.png" alt="">
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .menu-bar-mobile li{
+                padding: 15px;
+            }
+
+            .menu-bar-mobile-1{
+                background-color: rgb(255, 255, 255);
+                width: 100%;
+                overflow: hidden;
+            }
+
+            @media (max-width: 2000px){
+                .menu-bar-mobile{
+                    height: 0vh;
+                }
+
+                .menu-bar-mobile-1{
+                    height: 0vh;
+                }
+            }
+        </style>
+
+            <div id="menu-bar-mobile-1" class="menu-bar-mobile-1">
+                <ul class="menu-bar-mobile">
+                    <li><span style="background-image: linear-gradient(to right, rgb(25, 109, 255) , rgb(25, 109, 255)); padding: 10px 25px; border-radius: 25px; color:#fff;">Home</span></li>
+
+                    <style>
+
+                    </style>
+
+                    <hr>
+                    <li>Download</li>
+                    <hr>
+                    <li>Learn more</li>
+                    <hr>
+                    <li><a href="https://adisornsriphongthong.github.io/WP-Landing-Page-About-me/">About me</a></li>
+                    <hr>
+                    <li>
+                        <div class="button-darkmode">
+
+                            <div style="display: flex; align-items: center; justify-content: space-between;">
+                                <p>dark mode</p>
+                                <div style="display: flex; align-items: center;">
+                                    <img id="Image-dark-light" style="width: 25px; height: 25px;" src="https://cdn-icons-png.flaticon.com/128/606/606795.png" alt="">
+                                    <div style="margin-left: 15px; width: 60px; height: 25px; background-color: rgb(24, 24, 24); border: none; border-radius: 15px; ">
+                                        <button id="button-darkmode" style=" width: 23px; height: 23px; background-color: rgb(255, 255, 255); margin-top: 1px; margin-left: 1px; border: none; border-radius: 15px;"></button>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        <div style="width: 100%; background-color: rgb(255, 255, 255); display: flex; justify-content: space-between; align-items: center;">
+            <div style="display: flex; margin-left: 15px; margin: 10px;">
+                <p id="x" style="margin: 5px;">x : 0</p>
+                <p id="y" style="margin: 5px;">y : 0</p>
+            </div>
+        </div>
+
+        <div style="display: flex;">
+            <!-- section main 1 -->
+            <style>
+                @media screen and (max-width: 900px) {
+                    .main-section-1{
+                        width: 100%;
+                    }
+                }
+            </style>
+            <div style="margin-top: -20px;">
+                <div id="box-0-1">
+                    <div  style="top: 50%;margin-top: 50px; transform: translateX(500px); position: relative;">
+                        <div style="opacity: 0.7; background-color: rgb(0, 110, 255);" class="box-accessory-2">
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-section-1">
+                <div style="top: 25%; position: relative; margin: 25px;">
+                    <div style="display: flex; justify-content: center;">
+                        
+                        <div>
+                            
+                            <div style="margin: 15px; position: absolute; margin-top: -50px; margin-left: 0px;">
+                                <p style="font-size: 25px;" id="animation-typing"></p>
+                            </div>
+                            <h1 style="font-size: 35px;">JAVA DATABASE VIEWER</h1>
+                            <p style="margin: 5px;">This application helps you to find information about your students or employees.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="more-download">
+
+                        <style>
+                            .bt-more-b{
+                                width: 120px;
+                                height: 40px;
+                                margin: 10px;
+                                border: 1px solid black;
+                                background-image: linear-gradient(to right, rgb(25, 109, 255) , rgb(0, 68, 255));
+                                color: #fff;
+                                border: none;
+                            }
+
+                            .bt-more-b:hover {
+                                transition: 0.5s;
+                                background-image: linear-gradient(to right, rgb(32, 32, 32) , rgb(32, 32, 32));
+                            }
+
+                            .bt-download-b{
+                                width: 120px;
+                                height: 40px;
+                                margin: 10px;
+                                border: 1px solid black;
+                                background-color: transparent;
+                            }
+
+                            .bt-download-b:hover {
+                                color: #fff;
+                                background-color: rgb(32, 32, 32);
+                            }
+                        </style>
+                        
+                        <a href="#bg-2-main"><button class="bt-more-b">more</button></a>
+                        <button class="bt-download-b">download</button>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- section main 2 -->
+            <div  class="main-section-2">
+
+                <div style="margin-top: -30px;">
+                    <div style="top: 5%; left: -3%; position: relative;">
+                        <!-- *************************************************************************** -->
+                        <div id="box-2" style="top: 10%; margin-left:  45%;; position: relative;">
+                            <div  class="box-logo-2">
+                                <img style="width: 50px; height: 50px;  margin-left: 25px; margin-top: 25px;" src="https://cdn-icons-png.flaticon.com/128/711/711284.png" alt="">
+                            </div>
+                        </div>
+                        <div  style="top: 50%;margin-top: 50px; margin-left:  80%;; position: relative;">
+                            <div class="box-accessory-2">
+        
+                            </div>
+                        </div>
+                        
+                        
+                        <!-- *************************************************************************** -->
+                        <div id="box-1" style="top: 20%; margin-left:  15%;; position: relative;">
+                            <div  class="box-logo">
+                                <img style="width: 100px; height: 100px;"  src="Images/logo.png" alt="">
+                            </div>
+                        </div>
+                        
+                        <div  style="top: -10%; margin-left:  80%;; position: relative;">
+                            <div class="box-accessory-1">
+        
+                            </div>
+                        </div>
+
+                        <div id="bg-2-main">
+
+                        </div>
+        
+                        <div  style="top: 10%; margin-left:  45%;; position: relative;">
+                            <div class="box-accessory-2">
+        
+                            </div>
+                        </div>
+        
+                        <div  id="box-last" style="top: 50%;margin-top: 50px; margin-left:  15%;; position: relative;">
+                            <div style="opacity: 0.5;" class="box-accessory-2">
+        
+                            </div>
+                        </div>
+                        
+                        <!-- *************************************************************************** -->
+                        
+                        <div id="box-3"   style="top: 10%; margin-left: 65%; position: relative;">
+                            <!-- box accessory -->
+                            <div class="box-3">
+                                <img style="width: 40px; height: 40px; margin-left: 20px; margin-top: 20px; filter: invert(1)" src="https://cdn-icons-png.flaticon.com/128/33/33308.png" alt="">
+                            </div>
+                        </div>
+                        <!-- *************************************************************************** -->
+                        <div  id="box-4" style="top: 15%; margin-left: 40%; position: relative;">
+                            <!-- box accessory -->
+                            <div class="box-2">
+                                <img style="width: 35px; height: 40px; margin-left: 22px; margin-top: 20px; filter: invert(1)" src="https://cdn-icons-png.flaticon.com/128/658/658099.png" alt="">
+                            </div>
+                        </div>
+                        <!-- *************************************************************************** -->
+                        </div>
+        
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <style>
+        .background-2{
+            width: 100%;
+            height: 20vh;
+            background-position: center;
+            background-size: cover;
+            background-color: #fff;
+          }
+
+          .background-2-main{
+            width: 100%;
+            height: 60vh;
+            background-position: center;
+            background-size: cover;
+            background-image: linear-gradient(to right, rgb(25, 109, 255) , rgb(25, 109, 255));
+          }
+
+          .accessory-background-1{
+            width: 100%;
+            height: 20vh;
+            background-position: center;
+            background-size: cover;
+            background-color: transparent;
+            overflow: hidden;
+          }
+
+          .accessory-1{
+            width: 1500px;
+            height: 500px;
+            margin-top: 70px;
+            margin-left: -25px;
+            background-color: rgb(30, 30, 30);
+            transform: rotate(5deg);
+          }
+
+          .accessory-2{
+            width: 1700px;
+            height: 500px;
+            margin-top: 70px;
+            margin-left: -40px;
+            background-image: linear-gradient(to right, rgb(25, 109, 255) , rgb(25, 109, 255));
+            background-color: rgb(30, 30, 30);
+            transform: rotate(-10deg);
+          }
+
+          div.box-slide::-webkit-scrollbar {
+            width: 0.2em;
+        }
+
+        div.box-slide::-webkit-scrollbar-thumb {
+            background-color: transparent;
+        }
+
+
+          @media (max-width: 900px) {
+
+            .dark2{
+                display: none;
+            }
+            .background-2-main{
+                height: 120vh;
+            }
+
+            .background-2{
+                height: 50vh;
+            }
+          }
+
+          .move-background-2{
+            margin-top: -100px;
+          }
+
+          @media (max-width: 400px) {
+            .background-GUI{
+                height: 200px;
+            }
+
+            .more-download{
+                margin-left: 0px;
+            }
+
+            .background-2-main{
+                height: 20vh;
+            }
+        }
+    </style>
+
+    <div class="background-2">
+        <div id="move-background-2" class="move-background-2">
+
+            <div class="accessory-background-1">
+                <div class="accessory-1">
+                    <div class="accessory-2"></div>
+                </div>
+            </div>
+
+            <style>
+
+                .section-1{
+                    display: flex;
+                }
+
+                .section-1-1{
+                    width: 100%;
+                    height: 350px;
+                }
+
+                .section-1-2{
+                    width: 100%;
+                    height: 350px;
+                }
+
+                .background-GUI{
+                    background-color: transparent;
+                    width: 600px;
+                    height: 300px;
+                    border-radius: 15px;
+                    overflow: hidden;
+                    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+                }
+
+                @media (max-width: 900px) {
+                    .section-1{
+                        display: block;
+                    }
+
+                    .box-section-1{
+                        width: 100%;
+                    }
+                }
+
+                @media (max-width: 400px) {
+                    .background-GUI{
+                        width: 400px;
+                        height: 200px;
+                    }
+
+                    .background-2-main{
+                        height: 110vh;
+                    }
+                }
+
+
+            </style>
+
+            <div class="background-2-main">
+
+                <div class="section-1">
+                    <div class="section-1-1">
+                        <!-- section-slide-1 -->
+                        <div id="section-slide-1" style="visibility: hidden; position: relative; transform: translateY(200px); top: 35%; padding: 25px;">
+                            <div style="display: flex; align-items: center;">
+                                <img style="margin: 15px; filter: invert(1); width: 40px;" src="Images/browser.png" alt="">
+                                <h2 style="color: #fff; font-size: 35px;">GUI Application</h2>
+                            </div>
+                            <p style="margin: 15px; color: #fff; width: 353px;">
+                                The interface page that connects the user to the database has input for
+                                information such as student IDs. Once the information is entered, it
+                                will show that student's information.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-1-2">
+                        <div style="display: flex; justify-content: center; position: relative; top: 30%">
+                            <div id="section-slide-2" style="transform: translateY(200px);">
+                                <div id="background-GUI" class="background-GUI">
+                                    <img style="width: 100%; margin-top: -15px;" src="Images/GUI.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <style>
+                    .section-2{
+                        width: 100%;
+                        height: 500px;
+
+                    }
+                </style>
+
+
+            </div>
+
+            <div class="accessory-background-1" style=" transform: scaleY(-1);">
+                <div class="accessory-1">
+                    <div class="accessory-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .background-3{
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+    <div class="background-3">
+        <div style="display: flex; justify-content: center;">
+            <div>
+                <p style=" font-size: 18px; color: #222222; padding: 25px; font-family: 'Jost', sans-serif;">The parts that help in making an application </p></h1>
+
+            <hr>
+            </div>
+        </div>
+
+        <style>
+            .box-slide{
+                width:  100%;
+                height: 500px;
+                background-color: #fff;
+                overflow-x: scroll;
+            }
+
+            .box-slide-background{
+                width: 250px;
+                height: 400px;
+                background-color: #fff;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+                margin: 15px;
+            }
+
+            .box-left-center{
+                display: flex;
+                justify-content: center;
+            }
+
+            .box-button-left{
+                display: none;
+                width: 100px;
+                background-color: transparent
+            }
+
+            .box-button-right{
+                display: none;
+                width: 100px;
+                background-color: transparent
+            }
+
+            .button-left{
+                display: none;
+                width: 35px;
+                height: 35px;
+                opacity: 0.5;
+            }
+
+            @media screen and (max-width: 900px) {
+                .box-slide{
+                    width: 280px;
+                }
+
+                .box-button-left{
+                    display: flex;
+                }
+
+                .box-button-right{
+                    display: flex;
+                }
+
+                .box-left-center{
+                    justify-content: left;
+
+                }
+
+                .box-slide-background{
+                    box-shadow: none;
+                }
+            }
+
+        </style>
+        <div style="display: flex; justify-content: center;">
+            <div class="box-button-left">
+                <button  style="margin-top: 200px; width: 50px; height: 50px; background-color: transparent; border: none;"><img id="button-left" class="button-left" src="Images/left-chevron.png" alt=""></button>
+            </div>
+
+            <div id="box-slide" class="box-slide">
+                <div class="box-left-center">
+                    <div style="display: inline-flex;">
+                        <div class="box-slide-background">
+                            <div style="display: flex; justify-content: center; margin-top: 50px;">
+                                <div style="text-align: center;">
+                                    <img style="width: 50px; height: 50px;" src="Images/code.png" alt="">
+                                    <h1 style="font-size: 20px; padding: 20px;"><i>CODING</i></h1>
+
+                                    <div style="">
+                                        <p style="font-family: 'Jost', sans-serif; width: 170px;">
+                                            The coding part uses java language to create a GUI to connect to the database.
+                                        </p>
+
+                                        <style>
+                                            .button-more-1{
+                                                margin: 20px;
+                                                width: 100px;
+                                                height: 30px;
+                                                border: none;
+                                                color: #fff;
+                                                background-image: linear-gradient(to right, rgb(25, 109, 255) , rgb(0, 68, 255));
+                                                border-radius: 7.5px;
+                                            }
+
+                                            .button-more-1:hover{
+                                                transition: 0.3s;
+                                                background-image: linear-gradient(to right, rgb(17, 17, 17) , rgb(17, 17, 17) );
+                                            }
+                                        </style>
+
+                                        <a style="text-decoration: none;" href="https://www.computerscience.org/resources/what-is-coding-used-for/">
+                                            <div style="margin-left: 40px; margin-top: 20px;">
+                                                <button role="button" class="button">more</button>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box-slide-background">
+                            <div style="display: flex; justify-content: center; margin-top: 50px;">
+                                <div style="text-align: center;">
+                                    <img style="width: 50px; height: 50px;" src="Images/database.png" alt="">
+                                    <h1 style="font-size: 20px; padding: 20px;"><i>DATABASE</i></h1>
+
+                                    <div style="">
+                                        <p style="font-family: 'Jost', sans-serif; width: 170px;">
+                                            This section helps in creating database and tables of students or employees.
+                                        </p>
+                                        <a style="text-decoration: none;" href="https://www.oracle.com/database/what-is-database/">
+                                            <div style="margin-left: 40px; margin-top: 20px;">
+                                                <button role="button" class="button">more</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box-slide-background">
+                            <div style="display: flex; justify-content: center; margin-top: 50px;">
+                                <div style="text-align: center;">
+                                    <img style="width: 50px; height: 50px;" src="Images/user-experience.png" alt="">
+                                    <h1 style="font-size: 20px; padding: 20px;"><i>UX/UI</i></h1>
+
+                                    <div style="">
+                                        <p style="font-family: 'Jost', sans-serif; width: 170px;">
+                                            TThe right part helps in designing the webpage to make it easier to work with.
+                                        </p>
+
+                                        <a style="text-decoration: none;" href="https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/">
+                                            <div style="margin-left: 40px; margin-top: 20px;">
+                                                <button role="button" class="button">more</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-button-right">
+                <button  style="margin-left: 50px;margin-top: 200px; width: 50px; height: 50px; background-color: transparent; border: none;"><img style=" opacity: 0.5; width: 35px; height: 35px; transform: ScaleX(-1);" src="Images/left-chevron.png" alt=""></button>
+            </div>
+
+
+    </div>
+
+    <style>
+        .background-4{
+            width: 100%;
+            height: 100vh;
+            background-color: #fff;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .flex-background-4{
+            display: flex;
+        }
+
+        .overflow-scroll-textjava{
+            padding: 15px;
+            width: 680px;
+            height: 350px;
+
+        }
+
+        .scroll-bg-cs{
+            margin-top: 50px;
+            width: 600px;
+            height: 500px;
+            background-color: black;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            overflow: scroll;
+        }
+
+        div.scroll-bg-cs::-webkit-scrollbar {
+            width: 0.2em;
+        }
+
+        div.scroll-bg-cs::-webkit-scrollbar-thumb {
+            background-color: transparent;
+        }
+
+        .bg-section-4-1{
+            width: 50%;
+            height: 40vh;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .bg-section-4-0{
+            width: 50%;
+            height: 240vh;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .padding-text{
+            position: relative;
+            top: 5%;
+            padding: 50px;
+        }
+
+        .top-image{
+            display: flex; 
+            justify-content: center; 
+            top: 8%; 
+            position: relative;
+        }
+
+
+        @media (max-width: 900px){
+            .bg-section-4-0{
+                width: 100%;
+            }
+            .flex-background-4{
+                display: block;
+            }
+
+            .overflow-scroll-textjava{
+                overflow-y: scroll;
+                width: 650px ;
+            }
+
+            .bg-section-4-1{
+                width: 100%;
+            }
+
+            .top-image{
+                top: 20%; 
+            }
+        }
+
+        @media (max-width: 400px){
+            .scroll-bg-cs{
+                width: 300px;
+                height: 300px;
+            }
+
+            .padding-text{
+                padding: 20px;
+                justify-content: center;
+            }
+
+            .flex-background-4{
+                display: block;
+            }
+
+            .overflow-scroll-textjava{
+                overflow-y: scroll;
+                width: 300px ;
+            }
+
+            .bg-section-4-1{
+                width: 100%;
+            }
+
+            .top-image{
+                top: 50%; 
+                margin-top: 40px;
+            }
+        }
+    </style>
+    <div class="background-4">
+
+        <hr>
+
+        <div class="flex-background-4">
+
+
+            <div class="bg-section-4-1">
+                <div id="section-slide-3" style="transform: translateY(300px); visibility: hidden;">
+                    <div class="padding-text">
+                        <div  style="display: flex; align-items: center;">
+                            <img style="width: 40px; height: 40px;" src="Images/java (1).png" alt="">
+                            <h3 style="font-size: 25px; padding: 15px; width: 600px;">Java connect JDBC</h3>
+                        </div>
+                        <p class="overflow-scroll-textjava">
+    
+                            <style>
+                                .bg-line-text{
+                                    background-image: linear-gradient(to right, rgb(25, 109, 255) , rgb(0, 68, 255));
+                                    padding: 3px; border-radius: 15px;
+                                    color: #fff;
+                                }
+                            </style>
+    
+                        <span class="bg-line-text">ConnectDatabase connectDatabase = new ConnectDatabase();</span> : This line seems to be creating an instance of the ConnectDatabase class, which is likely a custom class for managing database connection details such as URL, username, and password.
+    
+                        <br><br>
+    
+                        <span class="bg-line-text">Class.forName("com.mysql.cj.jdbc.Driver");</span>: This line is loading the MySQL JDBC driver using the Class.forName method. It is necessary to load the driver before establishing a connection to the MySQL database.
+    
+                        <br><br>
+    
+                        <span class="bg-line-text">Connection connection = DriverManager.getConnection</span>(connectDatabase.getUrl(), connectDatabase.getUsername(), connectDatabase.getPassword());: This line establishes a connection to the MySQL database using the connection details provided by the connectDatabase object, such as the URL, username, and password.
+    
+                        <br><br>
+    
+                        <span class="bg-line-text">System.out.println("connected");</span>: This line simply prints "connected" to the console to indicate that the connection to the database has been successfully established.
+    
+                        <br><br>
+    
+                        <span class="bg-line-text">java.sql.Statement statement = connection.createStatement();</span>: This line creates a Statement object that can be used to execute SQL statements against the database. It allows you to send SQL queries to the database and receive the results.
+    
+    
+                        The sqlQuery string contains a complex SQL query that fetches data from the mystudent.student table and the mystudent.studentgrade table using an INNER JOIN on the student_Id column.
+    
+                        <br><br>
+    
+                        <span style="background-image: linear-gradient(to right, rgb(25, 109, 255) , rgb(0, 68, 255)); padding: 3px; border-radius: 15px; color: #fff;">ResultSet resultSet = statement.executeQuery(sqlQuery);</span> This line executes the SQL query stored in the sqlQuery string and retrieves the results into a ResultSet object. This ResultSet can be used to iterate over the returned rows and access the data retrieved from the database.
+    
+                        Overall, the provided code establishes a connection to a MySQL database, executes a complex SQL query, and retrieves the results into a ResultSet for further processing in the Java application.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-section-4-0">
+                <div id="section-slide-4" style="transform: translateY(500px); visibility: hidden;">
+                    <div class="top-image">
+                        <div id="scroll-bg-cs" class="scroll-bg-cs">
+                            <img  src="Images/สกรีนช็อต 2023-10-14 221330.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .background-6{
+            width: 100%;
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .bg-6-1{
+            width: 50%;
+            height: 60vh;
+            background-color: #131313;
+        }
+
+        .bg-6-2{
+            width: 50%;
+            height: 60vh;
+            background-color: #131313;
+        }
+
+        .flex-bg-6{
+            display: flex;
+        }
+        
+        .move-bg-2{
+            display: flex; 
+            justify-content: center; 
+            position: relative; 
+            top: 20%;
+        }
+
+        .ct-text-mysql{
+            display: flex; 
+            justify-content: center; 
+            position: relative; 
+            top: 25%;
+        }
+
+        .text-mysql{
+            width: 500px;
+        }
+
+        @media (max-width: 1000px){
+            .flex-bg-6{
+                display: block;
+            }
+
+            .bg-6-1{
+                width: 100%;
+            }
+
+            .bg-6-2{
+                width: 100%;
+            }
+
+            .bg-6-1{
+                height: 50vh;
+            }
+
+            .bg-6-2{
+                height: 60vh;
+            }
+
+            .move-bg-2{
+                top: 50%;
+            }
+        }
+
+        @media (max-width: 400px){
+            .ct-text-mysql{
+                top: 0;
+                justify-content: left;
+            }
+            .move-bg-2{
+                top: 25%;
+                width: 300px;
+                left: 12%;
+            }
+            
+
+            .bg-6-1{
+                height: 50vh;
+            }
+
+            .bg-6-2{
+                height: 50vh;
+            }
+
+            .text-head-mysql{
+                width: 300px;
+            }
+
+            .text-mysql{
+                width: 350px;
+            }
+        }
+    </style>
+    <div class="background-6">
+        <div class="flex-bg-6">
+            <div class="bg-6-1">
+                <div id="section-slide-5" style="transform: translateY(300px); visibility: hidden;">
+                    <div class="move-bg-2">
+                        <div style="background-color: green; width: 430px; height: 280px; top: 20%; position: relative; overflow:hidden; border-radius: 15px; box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;">
+                            <img id="cient-5" src="Images/สกรีนช็อต 2023-10-20 152930.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-6-2">
+                
+                <div  id="section-slide-5" style="transform: translateY(300px);">
+                    <div class="ct-text-mysql">
+                        <div id="section-slide-6" style="transform: translateY(100px); visibility: hidden;">
+
+                            <div style="display: flex; align-items: center;">
+                                <img style="padding: 15px;width: 45px; height: 45px; filter: invert(1);" src="Images/mysql.png" alt="">
+                                <h3 class="text-head-mysql" style="font-size: 50px; color: #fff;">Database by Mysql</h3>
+                            </div>
+            
+                            <div style="padding: 15px;">
+                                <p class="text-mysql" style="color: #fff;">We use this language to create a database. Come up and create a table to store student information by using the Query command using Java as a control to control and retrieve data from the database to see.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-7">
+
+            <style>
+                .center-cient{
+                    position: relative;
+                    top: 10%;
+                }
+                @media (max-width: 1000px){
+                    .center-cient{
+                        justify-content: center;
+                    }
+                }
+            </style>
+
+            <div class="center-cient">
+                <div style="position: relative; top: 20%; display: flex; justify-content: center;">
+                    <p style="padding: 15px;">What Cient think my application</p>
+                </div>
+                <div style="display: flex; justify-content: center; top: 20%; position: relative;">
+                    
+                    <div class="box-button-left">
+                        <button  style="margin-top: 200px; width: 50px; height: 50px; background-color: transparent; border: none;"><img id="button-left" class="button-left" src="Images/left-chevron.png" alt=""></button>
+                    </div>
+        
+                    <div id="box-slide" class="box-slide">
+                        <div class="box-left-center">
+                            <div style="display: inline-flex;">
+                                <div class="box-slide-background">
+                                    <div style="display: flex; justify-content: center; margin-top: 50px;">
+                                        <div style="text-align: center;">
+                                            <div style="display: flex; justify-content: center;">
+                                                <img id="cient-1" style="border-radius: 50%; width: 100px; height: 100px;" src="Images/Cient/Cient1.png" alt="">
+                                            </div>
+                                            <h1 style="font-size: 20px; padding: 20px;">Michael Dawson</h1>
+        
+                                            <div style=" display: flex; justify-content: center;">
+                                                <p style="font-family: 'Jost', sans-serif; width: 170px;">
+                                                    The coding part uses java language to create a GUI to connect to the database.
+                                                </p>
+        
+                                                <style>
+                                                    .button-more-1{
+                                                        margin: 20px;
+                                                        width: 100px;
+                                                        height: 30px;
+                                                        border: none;
+                                                        color: #fff;
+                                                        background-image: linear-gradient(to right, rgb(25, 109, 255) , rgb(0, 68, 255));
+                                                        border-radius: 7.5px;
+                                                    }
+        
+                                                    .button-more-1:hover{
+                                                        transition: 0.3s;
+                                                        background-image: linear-gradient(to right, rgb(17, 17, 17) , rgb(17, 17, 17) );
+                                                    }
+                                                </style>
+        
+                                                <a href="https://www.computerscience.org/resources/what-is-coding-used-for/">
+                                                    
+                                                </a>
+                                            </div>
+        
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                
+        
+                                <div class="box-slide-background">
+                                    <div style="display: flex; justify-content: center; margin-top: 50px;">
+                                        <div style="text-align: center;">
+                                            <div style="display: flex; justify-content: center;">
+                                                <img id="cient-2" style="border-radius: 50%; width: 100px; height: 100px;" src="Images/Cient/Cient2.jpg" alt="">
+                                            </div>
+                                            <h1 style="font-size: 20px; padding: 20px;">Wayne Terry</h1>
+        
+                                            <div style=" display: flex; justify-content: center;">
+                                                <p style="font-family: 'Jost', sans-serif; width: 170px;">
+                                                    I think this app helps me a lot because I have a lot of students.
+                                                </p>
+                                            </div>
+        
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="box-slide-background">
+                                    <div style="display: flex; justify-content: center; margin-top: 50px;">
+                                        <div style="text-align: center;">
+                                            <div style="display: flex; justify-content: center;">
+                                                <img id="cient-3" style="border-radius: 50%; width: 100px; height: 100px;" src="Images/Cient/cient3.jpg" alt="">
+                                            </div>
+                                            <h1 style="font-size: 20px; padding: 20px;">Wilona Guzman</h1>
+        
+                                            <div style=" display: flex; justify-content: center;">
+                                                <p style="font-family: 'Jost', sans-serif; width: 170px;">
+                                                    It's great because it helps me remember the names of my employees and information.
+                                                </p>
+                                            </div>
+        
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box-slide-background">
+                                    <div style="display: flex; justify-content: center; margin-top: 50px;">
+                                        <div style="text-align: center;">
+                                            <div style="display: flex; justify-content: center;">
+                                                <img id="cient-4" style="border-radius: 50%; width: 100px; height: 100px;" src="Images/Cient/Cient4.jpg" alt="">
+                                            </div>
+                                            <h1 style="font-size: 20px; padding: 20px;">Morris Slater</h1>
+        
+                                            <div style=" display: flex; justify-content: center;">
+                                                <p style="font-family: 'Jost', sans-serif; width: 170px;">
+                                                    It's good to have you beside me.
+                                                </p>
+                                            </div>
+        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="box-button-right">
+                        <button  style="margin-left: 50px;margin-top: 200px; width: 50px; height: 50px; background-color: transparent; border: none;"><img style=" opacity: 0.5; width: 35px; height: 35px; transform: ScaleX(-1);" src="Images/left-chevron.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="background-8">
+            <div style="top: 20%; position: relative;">
+                <div style="display: flex; align-items: center; justify-content: center;">
+                    <div style="text-align: center;">
+                        <div style="display: flex; justify-content: center;">
+                            <div style="margin: 5px; width: 30px; height: 30px; border-radius: 50%; background-color: #fff;"><img style="top: 50%; width: 20px; height: 20px; margin-top: 5px;" src="https://cdn-icons-png.flaticon.com/128/20/20837.png" alt=""></div>
+                            <div style="margin: 5px; width: 30px; height: 30px; border-radius: 50%; background-color: #fff;"><img style="top: 50%; width: 20px; height: 20px; margin-top: 5px;" src="https://cdn-icons-png.flaticon.com/128/1384/1384028.png" alt=""></div>
+                            <div style="margin: 5px; width: 30px; height: 30px; border-radius: 50%; background-color: #fff;"><img style="top: 50%; width: 20px; height: 20px; margin-top: 5px;" src="https://cdn-icons-png.flaticon.com/128/3661/3661391.png" alt=""></div>
+                        </div>
+                        <div style="display: flex; align-items: center; justify-content: center;">
+                            <h1 style="font-weight: bold; font-size: 35px;  margin: 25px; color: #fff; transform: translateX(30px)">ZSON.</h1> 
+                            <div style="width: 200px; height: 50px; background-color: translate; overflow: hidden;">
+                                <img style="margin-top: -50px; filter: invert(1); width: 150px; height: 150px;" src="Images/LOGO DIT.jpg" alt="">
+                            </div>
+                        </div>
+          
+                        <style>
+                            .c-text-l{
+                                color: #fff; 
+                                font-size: 10px;
+                                width: 500px;
+                            }
+                            @media (max-width: 400px){
+                                .c-text-l{
+                                    color: #fff; 
+                                    width: 340px;
+                                    font-size: 10px;
+                                }
+                            }
+                        </style>
+          
+                        <div>
+                            <p class="c-text-l">Database work is prepared by (Khun Wai Na Group) to present in the course Databases and big data systems All rights reserved to the group.</p>
+                        </div>
+                        <div style="display: flex; justify-content: center; margin: 25px;">
+                            <div style="display: flex;">
+                                <p><a style="color:#fff; margin: 15px; font-size: 10px;" href="">Privacy Policy</a></p>
+                                <p><a style="color:#fff; margin: 15px; font-size: 10px;" href="">Terms of use</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    
+    </div>
+
+    <style>
+        .background-7{
+            width: 100%;
+            height: 100vh;
+            background-color: #fff;
+            background-size: cover;
+            background-position: center ;
+        }
+
+        @media (max-width: 400px){
+            .background-7{
+                height: 80vh
+            ;
+            }
+        }
+
+        .background-8{
+            width: 100%;
+            height: 50vh;
+            background-color: rgb(0, 0, 0);
+            background-size: cover;
+            background-position: center ;
+        }
+    </style>
+
+    
+
+    
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
