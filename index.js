@@ -2,7 +2,7 @@ let animation_typing  = setInterval(events, 100);let count = 0;function events()
 "|" , "w|" , "we|" , "wel|" , "welc|" , "welco|" , "welcom|" , "welcome|" , "welcome |" , "welcome t|" , "welcome to|" , "welcome to |" , "welcome to m|" , "welcome to my|" , 
 "welcome to my |" , "welcome to my |" , "welcome to my w|" , "welcome to my we|" , "welcome to my web|" , "welcome to my webs|" , "welcome to my websi|"
 , "welcome to my websit|" , "welcome to my website|", "welcome to my website|", "welcome to my website|", "welcome to my website|", "welcome to my website|", "welcome to my website|", "welcome to my website|"];
-document.getElementById("animation-typing").innerHTML = alphabet[count];if(count == alphabet.length - 1){ count = 0;}}window.addEventListener('scroll', myFUnctionSccroll);function myFUnctionSccroll(){let value = Math.floor(window.scrollY);console.log(value);
+document.getElementById("animation-typing").innerHTML = alphabet[count];if(count == alphabet.length - 1){ count = 0;}}window.addEventListener('scroll', myFUnctionSccroll);function myFUnctionSccroll(){let value = Math.floor(window.scrollY);
 document.getElementById('move-background-2').style.transform = "translateY(" + -value + "px)";document.getElementById('box-1').style.transform = 'translateY(' +  -value + 'px)' + 'translateX(' +  -value  + 'px)';
 document.getElementById('box-2').style.transform = 'translateY(' +  value + 'px)' + 'translateX(' +  value + 'px)';document.getElementById('box-3').style.transform = 'translateY(' +  -value + 'px)' + 'translateX(' +  value  + 'px)';
 document.getElementById('box-4').style.transform = 'translateY(' +  -value + 'px)' + 'translateX(' +  -value  + 'px)'; document.getElementById('box-0-1').style.transform = 'translateY(' +  -value + 'px)' + 'translateX(' +  -value  + 'px)';
@@ -26,3 +26,6 @@ let on_off_bg = true;document.getElementById('button-burger-mobile').addEventLis
 Imaagex.src = 'https://cdn-icons-png.flaticon.com/128/2723/2723639.png';on_off_bg = false;}else{document.getElementById('menu-bar-mobile-1').style.height = '0vh';
 document.getElementById('menu-bar-mobile-1').style.transition = '0.5s';Imaagex.src = 'https://cdn-icons-png.flaticon.com/128/9663/9663120.png';
 on_off_bg = true;}});
+
+
+
